@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		
+	</body>
+</html><!DOCTYPE html>
+<html>
+  <head>
+	<title>Snowflake Spinner</title>
+	<link
+	  href="https://fonts.googleapis.com/css?family=Raleway:500"
+	  rel="stylesheet"
+	/>
+	<style type="text/css">
+	  body {
+		background-color: #4542ff;
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+	  }
+	  .mycanvas {
+		height: 350px;
+		width: 350px;
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		perspective: 500;
+		-webkit-perspective: 500;
+	  }
+	  .container {
+		height: 350px;
+		transform-style: preserve-3d;
+		animation: spin 1.8s forwards linear infinite;
+		-webkit-transform-style: preserve-3d;
+		-webkit-animation: spin 1.8s forwards linear infinite;
+	  }
+	  @keyframes spin {
+		100% {
+		  transform: rotateY(360deg);
+		}
+	  }
+	  @-webkit-keyframes spin {
+		100% {
+		  -webkit-transform: rotateY(360deg);
+		}
+	  }
+	  .snow {
+		background-color: white;
+		height: 175px;
+		width: 10px;
+		position: relative;
+	  }
+	  .a {
+		left: 170px;
+	  }
+	  .s1,
+	  .s2 {
+		background-color: white;
+		height: 40px;
+		width: 10px;
+		position: relative;
+	  }
+	  .s1 {
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		top: 5px;
+		left: 15px;
+	  }
+	  .s2 {
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		right: 15px;
+		bottom: 36px;
+	  }
+	  .s3,
+	  .s4 {
+		background-color: white;
+		height: 75px;
+		width: 10px;
+		position: relative;
+	  }
+	  .s3 {
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		bottom: 10px;
+		left: 25px;
+	  }
+	  .s4 {
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		bottom: 85px;
+		right: 25px;
+	  }
+	  .b {
+		transform: rotate(60deg);
+		-webkit-transform: rotate(60deg);
+		bottom: 131px;
+		left: 247px;
+	  }
+	  .c {
+		transform: rotate(120deg);
+		-webkit-transform: rotate(120deg);
+		bottom: 220px;
+		left: 246px;
+	  }
+	  .d {
+		transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		bottom: 350px;
+		left: 170px;
+	  }
+	  .e {
+		transform: rotate(240deg);
+		-webkit-transform: rotate(240deg);
+		bottom: 569px;
+		left: 95px;
+	  }
+	  .f {
+		transform: rotate(300deg);
+		-webkit-transform: rotate(300deg);
+		bottom: 832px;
+		left: 95px;
+	  }
+	  a {
+		background-color: #ffffff;
+		color: black;
+		position: absolute;
+		width: 260px;
+		top: 420px;
+		transform: translate(-50%, 0);
+		left: 50%;
+		padding: 10px 20px;
+		font-size: 25px;
+		font-family: "Raleway", sans-serif;
+		text-decoration: none;
+	  }
+	</style>
+  </head>
+  <body>
+	<div class="mycanvas">
+	  <div class="container">
+		<div class="snow a">
+		  <div class="s1"></div>
+		  <div class="s2"></div>
+		  <div class="s3"></div>
+		  <div class="s4"></div>
+		</div>
+		<div class="snow b">
+		  <div class="s1"></div>
+		  <div class="s2"></div>
+		  <div class="s3"></div>
+		  <div class="s4"></div>
+		</div>
+		<div class="snow c">
+		  <div class="s1"></div>
+		  <div class="s2"></div>
+		  <div class="s3"></div>
+		  <div class="s4"></div>
+		</div>
+		<div class="snow d">
+		  <div class="s1"></div>
+		  <div class="s2"></div>
+		  <div class="s3"></div>
+		  <div class="s4"></div>
+		</div>
+		<div class="snow e">
+		  <div class="s1"></div>
+		  <div class="s2"></div>
+		  <div class="s3"></div>
+		  <div class="s4"></div>
+		</div>
+		<div class="snow f">
+		  <div class="s1"></div>
+		  <div class="s2"></div>
+		  <div class="s3"></div>
+		  <div class="s4"></div>
+		</div>
+	  </div>
+	</div>
+  </body>
+</html>
